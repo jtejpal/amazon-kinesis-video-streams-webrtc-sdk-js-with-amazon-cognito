@@ -4,6 +4,12 @@
     line-height: 0;
     max-width: 100%;
     width: 100%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+video::-webkit-media-controls-panel {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 #logs-header {
